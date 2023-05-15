@@ -9,13 +9,15 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    background-color: #0f172a;
+    background-color:#1e293b;
     color: #f8fafc;
     height: 100vh;
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    
     
 }
 
@@ -24,18 +26,124 @@ ul {
 margin: 0;
 list-style: none;
 padding: 1rem;
-background-color: red;
-width: 100%;
-border-radius: 0.5rem;
+background-color:#94a3b8;
+width: 50%;
+border-radius: 2rem;
 max-height:  25rem;
 overflow: auto;
-
 }
+
+li{
+    gap: 1rem;
+}
+
 
 .task{
 
     display: flex;
+    border-radius: 2rem;
+
+         background: #475569;
+
+         margin: 10px 0 ;
+         
+
+}
+
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     
 
 
 }
+
+.input-group {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+
+
+.taskt {
+
+display: flex;
+display: flex;
+border-radius: 1rem;
+
+     background: #475569;
+
+}
+
+.input-group-addon {
+
+    cursor: pointer;  
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem; 
+}
+
+
+.delete-btn {
+
+
+    margin: auto 20px;
+padding: 1rem;
+    background-color: #e2e8f0;
+  color: black;
+  cursor: pointer;
+  border-radius: 2rem;
+ 
+}
+
+.check-btn{
+
+    margin: auto 20px;
+    padding: 1rem;
+        background-color: #e2e8f0;
+      color: black;
+      cursor: pointer;
+      border-radius: 2rem;
+
+}
+
+.delete {
+
+    margin: auto 20px;
+    padding: 1rem;
+        background-color: #e2e8f0;
+      color: black;
+      cursor: pointer;
+      border-radius: 2rem;
+
+
+}
+
+.check{
+
+    margin: auto  20px;
+    padding: 1rem;
+    background-color: #e2e8f0;
+  color: black;
+  cursor: pointer;
+  border-radius: 2rem;
+
+
+}
+
+.bo-ca{
+
+    margin: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
